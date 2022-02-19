@@ -1,0 +1,25 @@
+.container {
+  margin: 0 auto;
+  width: 50vw;
+  background-color: slategray;
+  padding: 3rem;
+}
+.container nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container nav img {
+  width: 6rem;
+}
+.container nav .nav-items {
+  list-style: none;
+  display: flex;
+}
+.container nav .nav-items li {
+  margin-left: 2rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=App.css.map */

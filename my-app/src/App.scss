@@ -1,0 +1,25 @@
+.container {
+	margin: 0 auto;
+	width: 50vw;
+	background-color: slategray;
+	padding: 3rem;
+	nav {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+
+		img {
+			width: 6rem;
+		}
+		.nav-items {
+			list-style: none;
+			display: flex;
+
+			li {
+				margin-left: 2rem;
+				font-size: 1.5rem;
+				font-weight: bold;
+			}
+		}
+	}
+}
