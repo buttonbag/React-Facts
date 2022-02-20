@@ -5,10 +5,10 @@ function Navbar() {
 	return (
 		<nav>
 			<div className="brand">
-				<img src={logo} alt="" className="nav-logo" />
-				<h1 className="brand-name">ReactFacts</h1>
+				<img src={logo} alt="" className="brand--logo" />
+				<h3 className="brand--name">ReactFacts</h3>
 			</div>
-			<div className="title">React Course - Project 1</div>
+			<h4 className="title">React Course - Project 1</h4>
 		</nav>
 	);
 }
