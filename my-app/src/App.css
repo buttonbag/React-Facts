@@ -8,18 +8,27 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin: 0 -3rem;
+  background: gray;
 }
-.container nav img {
-  width: 6rem;
+.container nav .nav-logo {
+  width: 4rem;
 }
 .container nav .nav-items {
-  list-style: none;
+  width: 50%;
   display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 .container nav .nav-items li {
-  margin-left: 2rem;
+  padding: 1rem;
   font-size: 1.5rem;
   font-weight: bold;
+}
+.container nav .nav-items li:hover {
+  background-color: white;
 }
 
 /*# sourceMappingURL=App.css.map */
